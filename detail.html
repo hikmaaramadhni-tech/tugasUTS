@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Halaman Utama (Home Screen) - Quizku</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+	<style>
+		/* tambahan kecil supaya halaman detail rapi */
+		.detail-section {
+			padding: 160px 80px;
+			background-color: #fbe8f2;
+			border-radius: 30px;
+			margin: 120px auto;
+			max-width: 1100px;
+		}
+
+		.detail-container {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			gap: 50px;
+		}
+
+		.detail-text {
+			flex: 1;
+			min-width: 300px;
+			color: #5b4a50;
+		}
+
+		.detail-text h2 {
+			font-size: 38px;
+			color: #b25d7a;
+			font-family: 'Playfair Display', serif;
+			margin-bottom: 20px;
+		}
+
+		.detail-text p {
+			font-size: 17px;
+			line-height: 1.6;
+			margin-bottom: 30px;
+		}
+
+		.detail-image {
+			flex: 1;
+			min-width: 300px;
+			text-align: center;
+		}
+
+		.detail-image img {
+			width: 80%;
+			border-radius: 20px;
+			box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+		}
+
+		.back-button {
+			display: inline-block;
+			border: 2px solid #c2728f;
+			color: #c2728f;
+			padding: 10px 25px;
+			border-radius: 25px;
+			text-decoration: none;
+			font-weight: 600;
+			transition: 0.3s ease;
+		}
+
+		.back-button:hover {
+			background-color: #c2728f;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav>
+		<ul>
+			<li><a href="#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li>behance</li>
+			<li><a href="https://www.instagram.com/hikmalanaga_?igsh=OThoeHVweHh6bHly" target="_blank">Instagram</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<!-- Detail Content -->
+	<section class="detail-section">
+		<div class="detail-container">
+			<div class="detail-image">
+				<img src="img/halaman1.jpg" alt="Halaman Utama Aplikasi Quizku">
+				<figcaption>Foto dari Aplikasi Quizku Halaman 1</figcaption>
+			</div>
+			<div class="detail-text">
+				<h2>Halaman Utama <br>(Home Screen)</h2>
+				<p>
+					Pada tampilan utama aplikasi Quiz, pengguna akan melihat tombol <b>Start Quiz</b> di bagian tengah layar untuk memulai permainan.
+					Tersedia juga daftar kategori seperti <b>Mathematics</b>, <b>History</b>, dan <b>Technology</b> yang dapat dipilih sesuai keinginan.
+					Di bagian bawah, terdapat tombol <b>Profile</b> untuk melihat data dan progres pengguna.
+				</p>
+				<p>
+					Desain halaman ini dibuat sederhana dan berwarna cerah agar mudah dipahami dan menarik bagi pengguna baru.
+					Tujuannya untuk memberikan kesan ramah, interaktif, dan mudah digunakan.
+				</p>
+				<a href="index.html" class="back-button">← Kembali ke Halaman Utama</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="contact">
+		<h2>any questions?<br>find me here<br>hikmaaramadhni@gmail.com</h2>
+		<p>quiz application by Hikma Ramadhani 2025</p>
+	</footer>
+</body>
+</html>
